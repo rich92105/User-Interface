@@ -64,108 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-  .container {
+
+body {
+	background-color:white;
+}
+.container {
 width: 1000px;
 margin: 0 auto;
 background-color: white;
 }
 header{
-	margin: 0px 0px 60px 0px;
-	text-align: center;
-	width: 100%;
-   	padding: 10px 0px;
-    position: fixed;
-
+margin: 0px 0px 60px 0px;
+text-align: center;
+width: 100%;
+padding: 10px 0px;
+position: fixed;
 
 }
-#nav-menu,
-	display: inline-block;
-	vertical-align: middle;
-	    
-}
 
-#nav-logo {
-	display: inline-block;
-	vertical-align: right;
-	
+#nav-menu, #nav-logo{
+display: inline-block;
+vertical-align: middle;
+
 }
 #nav-menu{
-	 padding: 0px 100px 0px 0px;	
-     margin: 0px;
+padding: 0px 100px 0px 0px;
+margin: 0px;
 }
 nav a {
-	padding: 30px;
-	text-decoration: none;
-}	
-#section1{
-	width:100%;
-	padding: 10px 0px;
-	text-align: center;
-	margin: 0px 0px 100px 0px;
-	    
+padding: 30px;
+color: black;
+text-decoration: none;
+}
 
+#section1{
+width:100%;
+padding: 10px 0px;
+text-align: center;
+margin: 0px 0px 100px 0px;
 }
 #sub, #sub-logo{
-	display: inline-block;
-	vertical-align: middle;
-	margin-top: 100px;
-}			
+display: inline-block;
+vertical-align: middle;
+margin-top: 100px;
+}
 #sub {
-	font-size: 75px;
-	margin:0px;
-	padding: 0px;
-	text-align: center;
+font-size: 75px;
+margin:0px;
+padding: 0px;
+text-align: center;
 }
 #button1{
-	padding: 10px 40px;
-	margin: 0px;
-	border: 1px black solid;
+padding: 10px 40px;
+margin: 0px;
+background-color: white;
+border: 1px black solid;
+color:black;
 }
 #button1:hover {
-	background-color: white;
+background-color: white;
+color: blue;
 }
 #huge{
-	padding: 0px;
-	margin: 0px;
+padding: 0px;
+margin: 0px;
 }
-/* middle banner doesn't want to get smaller */
 .wrapper{
-	width: 100%;
-	vertical-align: middle;
-	
+width: 100%;
+vertical-align: middle;
 }
 .section-block1 {
-	
-	
-	max-width: 49%;
-	margin: 0px 5px 25px 0px;
-	display: inline-block;
-
-
-
+display: inline-block;
+text-align: left;
+max-width: 49%;
+margin: 0px 5px 25px 0px;
 }
 .section-block2 {
-	
-
-	max-width: 31%;
-	margin: 25px 0px 25px 0px;
-	display: inline-block;
-
+display: inline-block;
+text-align: left;
+max-width: 31%;
+margin: 25px 0px 25px 0px;
 }
+
+
 .wrapper img{
-	width: 100%;
-	padding: 10px;
-	display: inline-block;
-}
-
-footer {
-	margin: 35px 0px 0px 0px;
+width: 100%;
+padding: 10px;
 }	
-
+footer {
+margin: 35px 0px 0px 0px;
+}
 #copy {
-	text-align: center;
+text-align: center;
 }
 footer a {
-	text-decoration: none;
+text-decoration: none;
+color: black;
+}
+footer a:hover, footer a:active {
 	color: black;
+	background-color: white;
 }
